@@ -2538,7 +2538,7 @@
 			"build": "1207"
 		}
 	},
-	"_NAMESPACE4": {
+	"ANTICHEAT": {
 		"0xC31C44C43B48FDE3": {
 			"name": "_REPORT_PLAYER_BAD_SPORT_BEHAVIOR",
 			"comment": "nullsub, doesn't do anything\nhowever it is being used in tty scripts: [NET_BAD_SPORT_REPORT_PLAYER] Detected bad sport behavior from Player\nbadSportBehavior: BS_QUITTER = 0, BS_VEHICLE_DESTRUCTION = 1, BS_VOTED_OUT = 2",
@@ -7301,7 +7301,7 @@
 			"gta_jhash": "0x29CE8BAA"
 		}
 	},
-	"CAM": {
+	"CAMERA": {
 		"0x33281167E4942E4F": {
 			"name": "RENDER_SCRIPT_CAMS",
 			"comment": "ease - smooth transition between the camera's positions\neaseTime - Time in milliseconds for the transition to happen\n\nIf you have created a script (rendering) camera, and want to go back to the \ncharacter (gameplay) camera, call this native with render set to FALSE.\nSetting ease to TRUE will smooth the transition.",
@@ -11011,7 +11011,7 @@
 			"build": "1207"
 		}
 	},
-	"COLLECTION": {
+	"COLLECTABLE": {
 		"0x725D52F21A5E9EF6": {
 			"name": "_COLLECTABLE_GET_CATEGORY",
 			"comment": "Used in Script Function NET_COLLECTABLES_HANDLE_ITEM_ADDED\nReturns collectableCategory Hash",
@@ -35236,7 +35236,7 @@
 			"build": "1232"
 		}
 	},
-	"ITEMSET": {
+	"ITEMSETS": {
 		"0xA1AF16083320065A": {
 			"name": "CREATE_ITEMSET",
 			"comment": "",
@@ -55810,7 +55810,7 @@
 			"build": "1311"
 		}
 	},
-	"PATHFIND": {
+	"PATH": {
 		"0xBF1A602B5BA52FEE": {
 			"name": "SET_ROADS_IN_AREA",
 			"comment": "",
@@ -86331,7 +86331,7 @@
 			"build": "1207"
 		}
 	},
-	"SCRIPTS": {
+	"SCRIPT": {
 		"0x31010318BA9897AC": {
 			"name": "_SET_PLAYER_BIT_AT_INDEX",
 			"comment": "",
